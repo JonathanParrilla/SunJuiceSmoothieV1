@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Tropical Tide</key>
+	<array>
+		<string>Peach juice, mangos, strawberries, pineapple sherbet, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Tropical</string>
+	</array>
+	<key>Tropical Tempo</key>
+	<array>
+		<string>Orange juice, peach juice, strawberries, peaches, pineapple sherbet, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Tropical</string>
+	</array>
+	<key>Trigo Treat</key>
+	<array>
+		<string>Puffed wheat, nonfat milk, honey, strawberries, nonfat frozen yogurt, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Milk-Based</string>
+	</array>
+	<key>Strawberry Shore</key>
+	<array>
+		<string>Apple juice, strawberries, banana, raspberry sherbet, nonfat frozen yogurt, and ice.</string>
+		<string>$4.25</string>
+		<string>$5.15</string>
+		<string>$6.10</string>
+		<string>Berry</string>
+	</array>
+	<key>Strawberry Samba</key>
+	<array>
+		<string>Apple juice, strawberries, banan, nonfat frozen yogurt, and ice.</string>
+		<string>$4.25</string>
+		<string>$5.15</string>
+		<string>$6.10</string>
+		<string>Berry</string>
+	</array>
+	<key>Raspberry Rush</key>
+	<array>
+		<string>Raspberry juice, strawberries, pineapple, pineapple sherbet, and ice.</string>
+		<string>$4.25</string>
+		<string>$5.15</string>
+		<string>$6.10</string>
+		<string>Berry</string>
+	</array>
+	<key>Raspberry Rejuvenator</key>
+	<array>
+		<string>Raspberry juice, energy, gingko biloba, raspberries, strawberries, pineapple, pineapple sherbet, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Functional</string>
+	</array>
+	<key>Raspberry Rave</key>
+	<array>
+		<string>Raspberry juice, raspberries, banana, nonfat frozen yogurt, and ice.</string>
+		<string>$4.25</string>
+		<string>$5.15</string>
+		<string>$6.10</string>
+		<string>Berry</string>
+	</array>
+	<key>Pure Power</key>
+	<array>
+		<string>Orange juice, enegery, strawberries, raspberries, banana, nondairy sorbet, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Functional</string>
+	</array>
+	<key>Pineapple Perk</key>
+	<array>
+		<string>Passionfruit-Mango juice, pineapple, strawberries, raspberry sherbet, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Tropical</string>
+	</array>
+	<key>Peanut Butter Burst</key>
+	<array>
+		<string>Peanut butter, cocoa, non fat milk, banana, nonfat frozen yogurt, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Milk-Based</string>
+	</array>
+	<key>Peach Pizzazz</key>
+	<array>
+		<string>Peach juice, peaches, banana, orange sherbet, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Tropical</string>
+	</array>
+	<key>Passion Potion</key>
+	<array>
+		<string>Passionfruit Mango juice, strawberries, mangos, nonfat frozen yogurt, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Citrus</string>
+	</array>
+	<key>Passion Pleasure</key>
+	<array>
+		<string>Passionfruit-Mango juice, strawberries, peaches, pineapple sherbet, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Citrus</string>
+	</array>
+	<key>Orange Orchard</key>
+	<array>
+		<string>Orang juice, strawberries, banana, nonfat frozen yogurt, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Citrus</string>
+	</array>
+	<key>Nutella Nouveau</key>
+	<array>
+		<string>Nutella, nonfat milk, nonfat frozen yogurt, nondairy sorbet, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Milk-Based</string>
+	</array>
+	<key>Mango Tango</key>
+	<array>
+		<string>Passionfruit Mango Juice, mangos, pineapple, sherbet, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Tropical</string>
+	</array>
+	<key>Mango Mist</key>
+	<array>
+		<string>Peach juice, pineapple, magoes, pineapple sherbet, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Tropical</string>
+	</array>
+	<key>Female Fuel</key>
+	<array>
+		<string>Ppineapple juice, multivitamin, calcium, plain nonfat yogurt, banana, peaches, pineapple sherbet, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Functional</string>
+	</array>
+	<key>Cranberry Crush</key>
+	<array>
+		<string>Cranberry juice, plain nonfat yogurt, blueberries, strawberries, raspberry sherbet, and ice.</string>
+		<string>$4.25</string>
+		<string>$5.15</string>
+		<string>$6.10</string>
+		<string>Berry</string>
+	</array>
+	<key>Cold Curer</key>
+	<array>
+		<string>Orange juice, vitamin C, banana, peaches, mangies, raspberry sherbet, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Functional</string>
+	</array>
+	<key>Citrus Swirl</key>
+	<array>
+		<string>Orange juice, srawberries, blueberries, pineapple sherbet, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Citrus</string>
+	</array>
+	<key>Citrus Splash</key>
+	<array>
+		<string>Pineapple juice, orange juice, pineapple, blueberries, orange sherbet, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Citrus</string>
+	</array>
+	<key>Citrus Cooler</key>
+	<array>
+		<string>Orange juice, pineapple juice, strawberries, banana, orange sherbet, and ice.</string>
+		<string>$4.15</string>
+		<string>$5.05</string>
+		<string>$5.99</string>
+		<string>Citrus</string>
+	</array>
+	<key>Citrus Cardio</key>
+	<array>
+		<string>Passionfruit-mango juice, antioxidant, immunity, peaches, mangos, orange sherbet, pineapple sherbet, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Functional</string>
+	</array>
+	<key>Cafe Mocha Latte</key>
+	<array>
+		<string>Coffee, nonfat milk, nutella, nondairy sorbet, nonfat frozen yogurt, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Milk-Based</string>
+	</array>
+	<key>Blueberry Blast</key>
+	<array>
+		<string>Apple juice, blueberries, banana, raspberry sherbet, nonfat frozen yogurt, and ice.</string>
+		<string>$4.25</string>
+		<string>$5.15</string>
+		<string>$6.10</string>
+		<string>Berry</string>
+	</array>
+	<key>Banana Burner</key>
+	<array>
+		<string>Orange juice, fat burner, fiber, banana, peaches, pineapple sherbet, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Functional</string>
+	</array>
+	<key>Awesome Oreo</key>
+	<array>
+		<string>Oreo cookie, nonfat milk, nonfat frozen yogurt, nondairy sorbet, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Milk-Based</string>
+	</array>
+	<key>Avena Appeal</key>
+	<array>
+		<string>Oats, nonfat milk,honey, mangoes, nonfat frozen yogurt, and ice.</string>
+		<string>$4.35</string>
+		<string>$5.25</string>
+		<string>$6.21</string>
+		<string>Milk-Based</string>
+	</array>
+</dict>
+</plist>

@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12F45" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Event">
-        <attribute name="timeStamp" optional="YES" attributeType="Date"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <entity name="Smoothie" representedClassName="Smoothie" syncable="YES">
+        <attribute name="calorieLarge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calorieMedium" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calorieSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredients" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderingValue" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="priceLarge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priceMedium" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priceSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="smoothieType" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SmoothieType" inverseName="smoothies" inverseEntity="SmoothieType" syncable="YES"/>
+    </entity>
+    <entity name="SmoothieType" representedClassName="SmoothieType" syncable="YES">
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="smoothies" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Smoothie" inverseName="smoothieType" inverseEntity="Smoothie" syncable="YES"/>
     </entity>
     <elements>
         <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
+        <element name="Smoothie" positionX="160" positionY="192" width="128" height="195"/>
+        <element name="SmoothieType" positionX="160" positionY="192" width="128" height="75"/>
     </elements>
 </model>

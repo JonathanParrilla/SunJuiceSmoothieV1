@@ -3,11 +3,8 @@
 //  Sun Juice V1
 //
 //  Created by jonathan a parrilla on 4/13/14.
-//  Copyright (c) 2014 Jonathan A Parrilla and Nestor Santiago. All rights reserved.
+//  Copyright (c) 2014 jonathan a parrilla. All rights reserved.
 //
-
-
-// NESTOR SANTIAGO
 
 #import "AppDelegate.h"
 
@@ -28,28 +25,13 @@
     //This checks if it is an iPad.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
     {
-        UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
-        UINavigationController *navigationController = tabBarController.viewControllers[0];
+        UITabBarController *tbc = (UITabBarController *)self.window.rootViewController;
+        UINavigationController *navigationController = tbc.viewControllers[0];
         MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
         controller.managedObjectContext = self.managedObjectContext;
         
-        //Customize the tab bar
-        UITabBar *tabBar = tabBarController.tabBar;
-        
-        UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
-        
-        [tabBarItem3 setFinishedSelectedImage:[UIImage imageNamed:@"icon-Small.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"icon-small.png"]];
-        
-        [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], UITextAttributeTextColor, nil] forState:UIControlStateNormal];
-        
-        //Customize the Navigation Bar
-        
-        [[UINavigationBar appearance] setTintColor:[UIColor orangeColor]];
-        
-        
-        
     }
-    // Else it is an iPhone
+    
     else
     {
 
@@ -61,19 +43,20 @@
         //Customize the tab bar
         UITabBar *tabBar = tabBarController.tabBar;
         
+        UITabBarItem *tabBarItem1 = [tabBar.items objectAtIndex:0];
+        
+        UITabBarItem *tabBarItem2 = [tabBar.items objectAtIndex:1];
+        
         UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
         
-        [tabBarItem3 setFinishedSelectedImage:[UIImage imageNamed:@"icon-Small.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"icon-small.png"]];
         
-        [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], UITextAttributeTextColor, nil] forState:UIControlStateNormal];
-        
-        
-        
-        //Customize the Navigation Bar
-        
-        [[UINavigationBar appearance] setTintColor:[UIColor orangeColor]];
         
     }
+
+    
+    
+    
+
     
     return YES;
 }

@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIconFile</key>
+	<string>sunJuice_logo.png</string>
+	<key>UILaunchImageFile~ipad</key>
+	<string>sunJuice_logo-568h@2x.png</string>
+	<key>UILaunchImageFile~iphone</key>
+	<string>sunJuice_logo.png</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -27,7 +33,7 @@
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard_iPhone</string>
 	<key>UIMainStoryboardFile~ipad</key>
-	<string>MainStoryboard_iPad</string>
+	<string>SunJuice_iPad</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
